@@ -29,8 +29,6 @@ import IPInfo from '@/components/IPInfo.vue';
 import leaflet from 'leaflet';
 import {onMounted, ref} from 'vue'
 
-// const mapToken = 'pk.eyJ1Ijoia2hlbWlvIiwiYSI6ImNsNWk4bDFxMDAyc24zY3B6eXk1OHQ2NmcifQ.yFhC5alRLK6XxBWMYdtsiw'
-// const geolocKey = '6b0055b082a54deca57e2a58d7bf1390';
 const mapToken = import.meta.env.VITE_MAP_TOKEN;
 const geolocKey = import.meta.env.VITE_GEOLOC_KEY;
 
